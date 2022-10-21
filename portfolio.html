@@ -5,40 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">WebStudio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
-    <header>
-      <a href="./index.html" lang="en">WebStudio</a>
+    <header class="header">
+      <a href="./index.html" lang="en" class="logo link">Web<span class="logo-header">Studio</span></a>
       <nav>
-        <ul class="nav-link">
-          <li><a href="./index.html">Студія</a></li>
-          <li><a href="./portfolio.html">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+        <ul class="nav-list link">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link link">Студія</a>
+        </li>
+          <li class="nav-item">
+            <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
+        </li>
+          <li class="nav-item">
+            <a href="" class="nav-link link">Контакти</a>
+        </li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a>
+      <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
     </header>
     <main>
-      <section>
-        <h1>portfolio</h1>
-        <section>
-        <h2>Фільтр</h2>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="portfolio">
+        <h1 class="visually-hidden">portfolio</h1>
+        <ul class="portfolio-list">
+          <li>
+            <button type="button" class="portfolio-btn">Усі</button>
+        </li>
+          <li>
+            <button type="button" class="portfolio-btn">Веб-сайти</button>
+        </li>
+          <li>
+            <button type="button" class="portfolio-btn">Додатки</button>
+        </li>
+          <li>
+            <button type="button" class="portfolio-btn">Дизайн</button>
+        </li>
+          <li>
+            <button type="button" class="portfolio-btn">Маркетинг</button>
+        </li>
         </ul>
-      </section>
-      <section>
         <h2>Наші роботи</h2>
         <ul>
           <li>
             <a href="">
             <img
-              src="./images/project 1.jpg"
+              src="./images/project1.jpg"
               alt="ноутбук"
               width="370"
               height="294"
@@ -50,7 +69,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 2.jpg"
+              src="./images/project2.jpg"
               alt="баскетболисти"
               width="370"
               height="294"
@@ -62,7 +81,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 3.jpg"
+              src="./images/project3.jpg"
               alt="логотип ресторану"
               width="370"
               height="294"
@@ -74,7 +93,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 4.jpg"
+              src="./images/project4.jpg"
               alt="навушники"
               width="370"
               height="294"
@@ -86,7 +105,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 5.jpg"
+              src="./images/project5.jpg"
               alt="дві коробки"
               width="370"
               height="294"
@@ -98,7 +117,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 6.jpg"
+              src="./images/project6.jpg"
               alt="монітор"
               width="370"
               height="294"
@@ -110,7 +129,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 7.jpg"
+              src="./images/project7.jpg"
               alt="журнал"
               width="370"
               height="294"
@@ -122,7 +141,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 8.jpg"
+              src="./images/project8.jpg"
               alt="бірка"
               width="370"
               height="294"
@@ -134,7 +153,7 @@
           <li>
             <a href="">
             <img
-              src="./images/project 9.jpg"
+              src="./images/project9.jpg"
               alt="ноутбук"
               width="370"
               height="294"
@@ -144,7 +163,6 @@
             </a>
           </li>
         </ul>
-      </section>
       </section>
     </main>
     <footer>
